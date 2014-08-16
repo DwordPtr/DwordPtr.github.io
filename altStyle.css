@@ -1,0 +1,46 @@
+#left {
+  float: left;
+  height: 250px;
+  width: 247px;
+  background: url('images/myFace.jpg');
+  background-repeat: no-repeat;
+  margin-right: 20px;
+  
+  font-size: 11px;
+  
+}
+#content {
+  float: center;
+  width: 70%;
+}
+body {
+  background-color: black;
+  font-family: courier;
+  color: green;
+}
+#header {
+float: center;
+text-align: center;
+font-size: 18px;
+}
+
+#post_title {
+float: center;
+text-align: left;
+font-size: 16px;
+}
+
+#post {
+margin-left: 5%;
+float: left;
+font-size: 14px;
+}
+#footer {
+  position: fixed;
+  bottom: 0px;
+  float: center;
+  font-size: 14px;
+  text-align: center;
+  
+}
+

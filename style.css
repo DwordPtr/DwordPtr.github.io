@@ -9,6 +9,14 @@ body {
 #header {
 	width: 100%
 }
+#left {
+	float: left;
+	background: url('images/myFace.jpg');
+	repeat: no-repeat;
+	height: 250px;
+	width: 227px;
+
+}
 #sub_header {
 	text-align: right;
 	font-weight: bold;
@@ -22,11 +30,11 @@ body {
 	width: 100%;
 	background: #FFFFFF url('images/background_content.gif');
 	background-repeat: repeat-y
-} 
+}
 #main_content_top {
 	height: 30px;
 	background: #FFFFFF url('images/background_top.gif');
-} 
+}
 #main_content_bottom {
 	height: 30px;
 	background: #FFFFFF url('images/background_bottom.gif');
