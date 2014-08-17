@@ -16,10 +16,11 @@
 <div id="header"><h1>Blog Title</h1></div>
 
 
-<div id="post">
+
 <div class="post_title">
 <h2>Post title</h2>
 </div>
+<div id="post">
 <p>Currently Under Construction</p>
 </div>
 

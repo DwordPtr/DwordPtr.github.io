@@ -17,6 +17,7 @@ body {
   background-color: black;
   font-family: courier;
   color: green;
+ 
 }
 #header {
 float: center;
@@ -28,9 +29,11 @@ font-size: 18px;
 float: center;
 text-align: left;
 font-size: 16px;
+
 }
 
 #post {
+margin-left: 5%;
 float: left;
 font-size: 14px;
 }

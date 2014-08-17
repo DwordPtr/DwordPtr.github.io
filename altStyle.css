@@ -5,18 +5,19 @@
   background: url('images/myFace.jpg');
   background-repeat: no-repeat;
   margin-right: 20px;
-  
+
   font-size: 11px;
-  
+
 }
 #content {
   float: center;
   width: 70%;
 }
 body {
-  background-color: black;
+  background-color: white;
   font-family: courier;
-  color: green;
+  color: black;
+
 }
 #header {
 float: center;
@@ -28,6 +29,7 @@ font-size: 18px;
 float: center;
 text-align: left;
 font-size: 16px;
+
 }
 
 #post {
@@ -41,6 +43,5 @@ font-size: 14px;
   float: center;
   font-size: 14px;
   text-align: center;
-  
-}
 
+}
