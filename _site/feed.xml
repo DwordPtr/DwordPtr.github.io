@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>A Blog of Computer Science</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+    <description>I'm a computer science student with opinions
 </description>
     <link>http://DwordPtr.github.io/</link>
     <atom:link href="http://DwordPtr.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 22 Dec 2014 16:31:25 -0600</pubDate>
-    <lastBuildDate>Mon, 22 Dec 2014 16:31:25 -0600</lastBuildDate>
+    <pubDate>Tue, 23 Dec 2014 01:40:21 -0600</pubDate>
+    <lastBuildDate>Tue, 23 Dec 2014 01:40:21 -0600</lastBuildDate>
     <generator>Jekyll v2.5.2</generator>
     
       <item>
