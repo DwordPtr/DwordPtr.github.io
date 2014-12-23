@@ -6,15 +6,15 @@
 </description>
     <link>http://DwordPtr.github.io/</link>
     <atom:link href="http://DwordPtr.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 23 Dec 2014 01:40:21 -0600</pubDate>
-    <lastBuildDate>Tue, 23 Dec 2014 01:40:21 -0600</lastBuildDate>
+    <pubDate>Tue, 23 Dec 2014 13:45:16 -0600</pubDate>
+    <lastBuildDate>Tue, 23 Dec 2014 13:45:16 -0600</lastBuildDate>
     <generator>Jekyll v2.5.2</generator>
     
       <item>
         <title>First Post!!!!!</title>
         <description>&lt;h1 id=&quot;my-first-post&quot;&gt;My first Post!!!!&lt;/h1&gt;
 
-&lt;h2 id=&quot;hopefully-right-file-exxtension&quot;&gt;Hopefully Right file exxtension&lt;/h2&gt;
+&lt;p&gt;This is my first post to this blog. I want to write about the technical knowledge, I’ve gained from school and the wisdom I’ve gained from experience. Hopefully these posts will be interesting to some of you.&lt;/p&gt;
 </description>
         <pubDate>Sun, 21 Dec 2014 15:13:42 -0600</pubDate>
         <link>http://DwordPtr.github.io/jekyll/update/2014/12/21/first-post.html</link>
