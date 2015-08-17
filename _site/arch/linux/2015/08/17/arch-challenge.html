@@ -6,12 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width initial-scale=1">
 
-  <title>About</title>
-  <meta name="description" content="I'm a computer science student with opinions
-">
+  <title>I took the Arch challenge</title>
+  <meta name="description" content="I took the Arch challenge">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://DwordPtr.github.io/about/">
+  <link rel="canonical" href="http://DwordPtr.github.io/arch/linux/2015/08/17/arch-challenge.html">
   <link rel="alternate" type="application/atom+xml" title="A Blog of Computer Science" href="http://DwordPtr.github.io/feed.xml" />
 </head>
 
@@ -58,14 +57,30 @@
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">About</h1>
+    <h1 class="post-title">I took the Arch challenge</h1>
+    <p class="post-meta">Aug 17, 2015</p>
   </header>
 
   <article class="post-content">
-    <p>I’m Bryan, a senior in Computer Science at Austin Peay State University. This blog is an ongoing experiment for me to keep up my skills writing about technical topics.</p>
+    <h1 id="i-took-the-arch-challenge">I took the Arch challenge</h1>
 
-<p>Aside from development I like scifi novels and heavy metal.</p>
+<h3 id="why">Why?</h3>
+<p>Last year Linux Action Show promoted the Arch challenge. Presumably because Arch is regarded as one of the more challenging distro’s (but possibly less challenging the Gentoo or Linux from Scratch). I was a long time Ubuntu user, but I’d been itching to try something. I was considering switching to Debian but chose Arch because I like the idea of a bleeding edge rolling release (or just hate the hassle of reinstalling). So with after spinning up a virtual machine  and running through the install I decided to do a clean install over Ubuntu and see how it performs as a daily driver.</p>
 
+<h3 id="experience">Experience</h3>
+<p>The install would’ve gone alot more smoothly if I had read the documentation about UEFI and mounting the /boot partition more closely. I’ve learned just how spoiled I was with Canonical. I won’t go to in detail because the wiki covers the install process and whats expected quite well. After that I decided to try kde’s new plasma 5 as a DE. I was surprised at how sparse arch can be. I had to manually install KMix and plasma-nm to get the gui volume controller for alsa and wifi respectively. Running jekyll required messing with the path in my bashrc and manually installing nodejs. This kind of thing has taught me much about how an OS fits together. I can see how Arch would be tough at first but bring benefits as far as flexibility and simplicity go.</p>
+
+<h3 id="vs-ubuntu">Vs Ubuntu</h3>
+<p>One thing that shocked me about Arch is the learning curve wasn’t too steep. It was definitely there and many things were definitely less easy in Arch, but they weren’t much harder; except for things that you only do once (secureboot initial install etc). The wiki is amazing even for the hard parts. I’ve yet to run into anything that I can’t do in Arch that I used to do in Ubunut. It’s a solid distro and the devs deserve recognition.</p>
+
+<h3 id="pain-points">Pain points</h3>
+<p>Arch has a reputation for it’s difficult install process. Compared to distros with graphical installers Arch is really tough to get a booting base. The actually install just requires running pacstrap the real challenge is doing everything else to get a bootable system. There are distros that add a GUI install to pacman to help relieve the stress, but tend to be frowned upon due to fragmentation and downstream issues. I’ve also had more crashes than with Ubuntu, but this could be attributed to using Plasma 5 and beginner mistakes. Luckily I’ve never lost any major work because of it.</p>
+
+<h3 id="why-switch">Why switch?</h3>
+<p>The real pro’s of Arch are its quick deployment of the latest software and its one time setup philosophy; setup a good system and just install updates. It really feels like just a package manager + the latest from various open source projects since its upstream patches are minimal.</p>
+
+<h3 id="takeaways">Takeaways</h3>
+<p>Arch is a solid choice for anything in user-space. It’s worth giving a shot if you like control over your PC and have some degree of experience with Linux.</p>
 
   </article>
 

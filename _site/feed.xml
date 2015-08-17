@@ -2,19 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>A Blog of Computer Science</title>
-    <description>I'm a computer science student with opinions
+    <description>I&#39;m a computer science student with opinions
 </description>
     <link>http://DwordPtr.github.io/</link>
     <atom:link href="http://DwordPtr.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 19 Jan 2015 15:56:57 -0600</pubDate>
-    <lastBuildDate>Mon, 19 Jan 2015 15:56:57 -0600</lastBuildDate>
-    <generator>Jekyll v2.5.2</generator>
+    <pubDate>Mon, 17 Aug 2015 02:19:15 -0500</pubDate>
+    <lastBuildDate>Mon, 17 Aug 2015 02:19:15 -0500</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>I took the Arch challenge</title>
+        <description>&lt;h1 id=&quot;i-took-the-arch-challenge&quot;&gt;I took the Arch challenge&lt;/h1&gt;
+
+&lt;h3 id=&quot;why&quot;&gt;Why?&lt;/h3&gt;
+&lt;p&gt;Last year Linux Action Show promoted the Arch challenge. Presumably because Arch is regarded as one of the more challenging distro’s (but possibly less challenging the Gentoo or Linux from Scratch). I was a long time Ubuntu user, but I’d been itching to try something. I was considering switching to Debian but chose Arch because I like the idea of a bleeding edge rolling release (or just hate the hassle of reinstalling). So with after spinning up a virtual machine  and running through the install I decided to do a clean install over Ubuntu and see how it performs as a daily driver.&lt;/p&gt;
+
+&lt;h3 id=&quot;experience&quot;&gt;Experience&lt;/h3&gt;
+&lt;p&gt;The install would’ve gone alot more smoothly if I had read the documentation about UEFI and mounting the /boot partition more closely. I’ve learned just how spoiled I was with Canonical. I won’t go to in detail because the wiki covers the install process and whats expected quite well. After that I decided to try kde’s new plasma 5 as a DE. I was surprised at how sparse arch can be. I had to manually install KMix and plasma-nm to get the gui volume controller for alsa and wifi respectively. Running jekyll required messing with the path in my bashrc and manually installing nodejs. This kind of thing has taught me much about how an OS fits together. I can see how Arch would be tough at first but bring benefits as far as flexibility and simplicity go.&lt;/p&gt;
+
+&lt;h3 id=&quot;vs-ubuntu&quot;&gt;Vs Ubuntu&lt;/h3&gt;
+&lt;p&gt;One thing that shocked me about Arch is the learning curve wasn’t too steep. It was definitely there and many things were definitely less easy in Arch, but they weren’t much harder; except for things that you only do once (secureboot initial install etc). The wiki is amazing even for the hard parts. I’ve yet to run into anything that I can’t do in Arch that I used to do in Ubunut. It’s a solid distro and the devs deserve recognition.&lt;/p&gt;
+
+&lt;h3 id=&quot;pain-points&quot;&gt;Pain points&lt;/h3&gt;
+&lt;p&gt;Arch has a reputation for it’s difficult install process. Compared to distros with graphical installers Arch is really tough to get a booting base. The actually install just requires running pacstrap the real challenge is doing everything else to get a bootable system. There are distros that add a GUI install to pacman to help relieve the stress, but tend to be frowned upon due to fragmentation and downstream issues. I’ve also had more crashes than with Ubuntu, but this could be attributed to using Plasma 5 and beginner mistakes. Luckily I’ve never lost any major work because of it.&lt;/p&gt;
+
+&lt;h3 id=&quot;why-switch&quot;&gt;Why switch?&lt;/h3&gt;
+&lt;p&gt;The real pro’s of Arch are its quick deployment of the latest software and its one time setup philosophy; setup a good system and just install updates. It really feels like just a package manager + the latest from various open source projects since its upstream patches are minimal.&lt;/p&gt;
+
+&lt;h3 id=&quot;takeaways&quot;&gt;Takeaways&lt;/h3&gt;
+&lt;p&gt;Arch is a solid choice for anything in user-space. It’s worth giving a shot if you like control over your PC and have some degree of experience with Linux.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 17 Aug 2015 00:00:00 -0500</pubDate>
+        <link>http://DwordPtr.github.io/arch/linux/2015/08/17/arch-challenge.html</link>
+        <guid isPermaLink="true">http://DwordPtr.github.io/arch/linux/2015/08/17/arch-challenge.html</guid>
+        
+        
+        <category>arch</category>
+        
+        <category>linux</category>
+        
+      </item>
     
       <item>
         <title>Required Geek Reading</title>
-        <description>&lt;p&gt;Geeks are famous for their fiction. There is a lot of talk amongst CS departments (and sometimes corporations) of a culture the programmers share: Dilbert, Office Space, Monty Python, etc. There is also a long (by the standards of computer science) and rich tradition of geek literature. I’ve compiled a short list of fiction that I found both enlightening and enjoyable. If this is recieved well I may do one for non-fiction. &lt;/p&gt;
+        <description>&lt;p&gt;Geeks are famous for their fiction. There is a lot of talk amongst CS departments (and sometimes corporations) of a culture the programmers share: Dilbert, Office Space, Monty Python, etc. There is also a long (by the standards of computer science) and rich tradition of geek literature. I’ve compiled a short list of fiction that I found both enlightening and enjoyable. If this is recieved well I may do one for non-fiction.&lt;/p&gt;
 
-&lt;p&gt;Anyway in no particular order. &lt;/p&gt;
+&lt;p&gt;Anyway in no particular order.&lt;/p&gt;
 
 &lt;h2 id=&quot;little-brother-and-homeland---cory-doctorow&quot;&gt;Little Brother and Homeland - Cory Doctorow&lt;/h2&gt;
 &lt;p&gt;Two books by Cory Doctorow about a young man named Marcus Yallow, who accidentally gets suspected of a terrorist attack. He’s threaten, tortured and ultimate bests some baddies of the scariest NSA type. These two books are all about how scary unchecked government can be and the importance of human rights.&lt;/p&gt;
@@ -29,7 +62,7 @@
 &lt;p&gt;This books is about a rich boy in America and too different groups of laborers in China and India. It does a great job of spelling out the economics and gold farming and bringing the labor rights debate into the 21st century. This books is possibly more about economics than tech but its a great read about something that actually happens in the world.&lt;/p&gt;
 
 &lt;h2 id=&quot;eastern-standard-tribe---cory-doctorow&quot;&gt;Eastern Standard Tribe - Cory Doctorow&lt;/h2&gt;
-&lt;p&gt;This books is about mobile phones and online communities. People in this novel use their phones to join ‘tribes’ and radically alter their sleep cycles to stay awake at the same times. There is a heavy stigma about tribes so most memeber keep it secret. They work togeather to help each other get ahead in life and pool resources. It’s like a mix between an afk clan, a corporation/coop, and a government. Really great take on how online communities effect the world. &lt;/p&gt;
+&lt;p&gt;This books is about mobile phones and online communities. People in this novel use their phones to join ‘tribes’ and radically alter their sleep cycles to stay awake at the same times. There is a heavy stigma about tribes so most memeber keep it secret. They work togeather to help each other get ahead in life and pool resources. It’s like a mix between an afk clan, a corporation/coop, and a government. Really great take on how online communities effect the world.&lt;/p&gt;
 
 &lt;h2 id=&quot;the-rapture-of-the-nerds---corry-doctorowcharles-stross&quot;&gt;The Rapture of the nerds - Corry Doctorow/Charles Stross&lt;/h2&gt;
 &lt;p&gt;No this isn’t &lt;em&gt;Revenge of the nerds&lt;/em&gt;. This is a novella with two story arcs about the adventures of an originally technophobic man that gets appointed to a court approving technology. He goes on a an amazing adventure that spans themes like technology aided gender swapping and technology aided immortality. The second story arc specifically is about eternal life through technology and the theoretical posibilities.&lt;/p&gt;
@@ -38,9 +71,9 @@
 &lt;p&gt;There is a google addage to think 10x big instead of 10%. This Assimov short-story is the equivalent of a googleplex fold big. He asks the really big question: “How do we reduce entropy so we’ll have usable energy forever?”. In this increadibly visionary 15 minute read. Assimov views humanity at several diffent stages of technological development until the heat-death of the universe. His last prediction where mankind is unified is increadibly surreal. Its definitely worth a read.&lt;/p&gt;
 
 &lt;h2 id=&quot;notes&quot;&gt;Notes&lt;/h2&gt;
-&lt;p&gt;There are some great books that I didn’t include. For instance, All Tomorrows Parties, which spells out nanotechnology too, or Neuromancer which speaks for itself. I tried to include stories that were both enjoyable and would illustrate the uses/possiblities of technology. I feel bad about not including any William Gibson, but his work is definitely more about societal weirdness than illustrating technology. The two are really related, but it’s difficult to pick out an over-arching theme from those works. I also wish the least was more diverse author-wise. I haven’t read much Arthur C. Clarke or much beyond some well known authors in the scene: William Gibson, Neal Stephenson, Charles Stross and Cory Doctorow. I may do another one of these when I’ve read from more authors instead of alot from only a few authors. &lt;/p&gt;
+&lt;p&gt;There are some great books that I didn’t include. For instance, All Tomorrows Parties, which spells out nanotechnology too, or Neuromancer which speaks for itself. I tried to include stories that were both enjoyable and would illustrate the uses/possiblities of technology. I feel bad about not including any William Gibson, but his work is definitely more about societal weirdness than illustrating technology. The two are really related, but it’s difficult to pick out an over-arching theme from those works. I also wish the least was more diverse author-wise. I haven’t read much Arthur C. Clarke or much beyond some well known authors in the scene: William Gibson, Neal Stephenson, Charles Stross and Cory Doctorow. I may do another one of these when I’ve read from more authors instead of alot from only a few authors.&lt;/p&gt;
 
-&lt;p&gt;These books are mostly pretty easy to find used. If you have an ereader, For the win, Little Brother, Rapture of the nerds, and Eastern Standard Tribe are all creative commons and an epub of Homeland is availble on Cory Doctorows Noise Trade. &lt;/p&gt;
+&lt;p&gt;These books are mostly pretty easy to find used. If you have an ereader, For the win, Little Brother, Rapture of the nerds, and Eastern Standard Tribe are all creative commons and an epub of Homeland is availble on Cory Doctorows Noise Trade.&lt;/p&gt;
 </description>
         <pubDate>Mon, 19 Jan 2015 08:40:00 -0600</pubDate>
         <link>http://DwordPtr.github.io/ficton/2015/01/19/Required-Geek-Reading.html</link>
