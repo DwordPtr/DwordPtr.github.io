@@ -7,6 +7,8 @@ permalinke: /icaf/
 #Assignment4 Icaffeine extravaganza
 You dear user are likely a Phd Of CS or an undergrad TA.
 
+This app was authored by: Bryan Tidwell
+
 This application is designed for the fictional patron by freelancer DwordPtr
 
 ##With this app you can
