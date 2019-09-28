@@ -1,11 +1,10 @@
 # Site settings
 title: A Blog of Computer Science
-email: btidwell4@my.apsu.edu
+email: bryanktidwell2@gmail.com
 description: ># this means to ignore newlines until "baseurl:"
-  I'm a computer science student with opinions
+  I'm a software engineer with opinions
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://DwordPtr.github.io" # the base hostname & protocol for your site
-twitter_username: DwordPtr
 github_username:  DwordPtr
 
 # Build settings
