@@ -23,7 +23,26 @@ body {
     -webkit-text-size-adjust: 100%;
 }
 
-
+@media (prefers-color-scheme: dark) {
+    body {
+      background-color: #444;
+      color: $text-color-dark;
+    }
+    a {
+      color: $dark-color;
+      text-decoration: none;
+      &:visited {
+          color: darken($dark-color, 15%);
+      }
+      &:hover {
+          color: $text-color-dark;
+          text-decoration: underline;
+      }
+    }
+    img {
+      filter: grayscale(30%);
+    }
+  }
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
